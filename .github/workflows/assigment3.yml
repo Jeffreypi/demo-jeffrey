@@ -1,0 +1,10 @@
+name: assignment3
+on: push
+jobs:
+  job1:
+    name: first job to run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step one
+        run: echo Step One
+      
